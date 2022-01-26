@@ -1,0 +1,17 @@
+{%for proyecto in proyectos%}
+<li onclick="location.href='{{proyecto.url}}';" type="button">
+    <h2>{{proyecto.indice}}</h2>
+    <h3>{{proyecto.titulo}}</h3>
+    <br>
+    <p>
+        {{proyecto.subtitulo}}
+    </p>
+    <p>
+        {{proyecto.explicacion}}
+    </p>
+    <p>
+        {{proyecto.detalle}}
+    </p>
+    <button>Ir al proyecto</button>
+</li>
+{%endfor%}

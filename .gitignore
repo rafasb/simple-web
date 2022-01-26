@@ -1,2 +1,4 @@
-public-html/backend/*
-!public-html/backend/requirements.txt
+backend/*
+!backend/requirements.txt
+!backend/proyectos.*
+!backend/htmlGenerator.py
