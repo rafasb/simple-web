@@ -1,2 +1,2 @@
-public-html/*
-!public-html/requirements.txt
+public-html/backend/*
+!public-html/backend/requirements.txt
