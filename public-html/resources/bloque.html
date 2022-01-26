@@ -30,3 +30,115 @@
     </p>
     <button>Ir al proyecto</button>
 </li>
+
+<li onclick="location.href='https://github.com/rafasb/wordpress-traefik-docker/';" type="button">
+    <h2>03</h2>
+    <h3>Wordpress en docker con traefik y certificado Let's Encrypt</h3>
+    <br>
+    <p>
+        Útil para poner rápidamente en marcha un proyecto wordpress y poder mostrarlo públicamente con seguridad SSL.
+    </p>
+    <p>
+        Hace uso de traefik que además de aportar un balanceado de carga y certificado SSL automatizado, nos muestra estadísticas de uso.
+    </p>
+    <p>
+        Es un excelente ejemplo para configurar traefik, ampliamente empleado con docker y kubernetes.
+    </p>
+    <button>Ir al proyecto</button>
+</li>
+
+<li onclick="location.href='https://rafasb.github.io/gitlab_docker-compose/';" type="button">
+    <h2>04</h2>
+    <h3>Gitlab sobre docker-compose</h3>
+    <br>
+    <p>
+        Despliegue local de la potente aplicación GitLab sobre docker-compose.
+    </p>
+    <p>
+        Servidor Git para control de versiones, servicio de CI/CD, registro de imágenes de contenedores.
+    </p>
+    <p>
+        También es interesante el script comentado gen-certs.sh para gestión de certificados.
+    </p>
+    <button>Ir al proyecto</button>
+</li>
+
+<li onclick="location.href='https://rafasb.github.io/log-monitor/';" type="button">
+    <h2>05</h2>
+    <h3>Monitorización de logs</h3>
+    <br>
+    <p>
+        Despliegue local de Graylog, basándose en elasticsearch y fluentd para recopilar origenes de logs.
+    </p>
+    <p>
+        Complentando la gran utilidad de Graylog para realizar análisis de logs, generar alertas y dashboards, disponemos de Fluentd para recopilar y realizar un primer tratamiento de los logs.
+    </p>
+    <p>
+        Es una solución muy potente y escalable donde combina diferentes aplicaciones vinculadas entre si.
+    </p>
+    <button>Ir al proyecto</button>
+</li>
+
+<li onclick="location.href='https://rafasb.github.io/metrics-monitor/';" type="button">
+    <h2>06</h2>
+    <h3>Monitorización de métricas</h3>
+    <br>
+    <p>
+        Despliegue local de Grafana, basándose en Influxdb + Telegraf y Prometheus.
+    </p>
+    <p>
+        Veremos dos aproximaciones diferentes para la monitorización de sistemas, una basada en Prometheus y otra basada en InfluxDB v2 y Telegraf.
+    </p>
+    <p>
+        Este es un ejemplo de un conjunto complejo de contenedores que realiza muy diferentes funciones para conseguir un resultado, disponer de paneles para monitorizar métricas de sistemas.
+    </p>
+    <button>Ir al proyecto</button>
+</li>
+
+<li onclick="location.href='https://rafasb.github.io/ansible-docker-cli/';" type="button">
+    <h2>07</h2>
+    <h3>Contenedor para ejecutar Ansible</h3>
+    <br>
+    <p>
+        Ansible es una de las mejores soluciones para automatización. Este proyecto lo convierte en una aplicación portable
+    </p>
+    <p>
+        El proyecto explora la posibilidad de crear nuestro propio contenedor, usando una imagen de Ubuntu e instalando aplicaciones de sistema, aplicaciones Python e incluso plugins y configuración de la aplicación.
+    </p>
+    <p>
+        El resultado es una imagen que podemos usar para ejecutar un contenedor como un comando CLI para realizar tareas automatizadas.
+    </p>
+    <button>Ir al proyecto</button>
+</li>
+
+<li onclick="location.href='https://rafasb.github.io/jupyter-ansible/';" type="button">
+    <h2>08</h2>
+    <h3>Contenedor para ejecutar Jupiter</h3>
+    <br>
+    <p>
+        Combina la potencia de Ansible con la facilidad de uso y practicidad de Jupyter Notebook
+    </p>
+    <p>
+        El proyecto crea un servidor de Jupyter Notebook (última versión Jupiter-Lab).
+    </p>
+    <p>
+        Permite emplear la potente herramienta de Ansible, con una colección de plugins orientada a la automatización de equipos de red y a través de la interfaz web de Jupyter
+    </p>
+    <button>Ir al proyecto</button>
+</li>
+
+<li onclick="location.href='https://rafasb.github.io/remote-wake-stop-servers/';" type="button">
+    <h2>09</h2>
+    <h3>Arrancar y detener equipos en remoto</h3>
+    <br>
+    <p>
+        En algunas situaciones puede resultar interesante poder encender o apagar un PC en remoto, tanto desde la propia LAN del equipo, como desde otra red e incluso desde Internet.
+    </p>
+    <p>
+        El proyecto se basa en 3 contenedores, un para las funciones de Wake on LAN (WoL), otro para el apagado y el tercero basado en NPM para facilitar el acceso remoto seguro a los anteriores.
+    </p>
+    <p>
+        Es un ejemplo práctico e interesante para aprender a realizar un contenedor con APIs basadas en Python (FastAPI) y para asegurar el acceso a servicios que no implementan la seguridad de forma nativa.
+    </p>
+    <button>Ir al proyecto</button>
+</li>
